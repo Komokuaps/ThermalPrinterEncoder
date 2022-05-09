@@ -1,6 +1,9 @@
 {
-    "name": "@komokuaps/thermal-printer-encoder",
-    "version": "1.0.0",
+    "name": "@komokuaps/thermalprinterencoder",
+    "version": "1.0.2",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
     "description": "Create a set of commands that can be send to any receipt printer that supports ESC/POS",
     "main": "src/thermal-printer-encoder.js",
     "scripts": {
@@ -22,9 +25,6 @@
     "bugs": {
         "url": "https://github.com/NielsLeenheer/ThermalPrinterEncoder/issues"
     },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
-    },
     "homepage": "https://github.com/NielsLeenheer/ThermalPrinterEncoder#readme",
     "devDependencies": {
         "browserify": "^16.5.2",
@@ -36,6 +36,6 @@
     },
     "dependencies": {
         "@komokuaps/escposencoder": "^2.0.1",
-        "star-prnt-encoder": "^1.0.2"
+        "@komokuaps/starprntencoder": "^1.0.2"
     }
 }
