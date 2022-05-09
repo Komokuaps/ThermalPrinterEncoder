@@ -1,4 +1,4 @@
-const EscPosEncoder = require('esc-pos-encoder');
+const EscPosEncoder = require('@komokuaps/escposencoder');
 const StarPrntEncoder = require('star-prnt-encoder');
 
 /**
