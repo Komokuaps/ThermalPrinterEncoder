@@ -1,5 +1,5 @@
 const EscPosEncoder = require('@komokuaps/escposencoder');
-const StarPrntEncoder = require('@komokuaps/escposencoder');
+const StarPrntEncoder = require('@komokuaps/starprntencoder');
 
 /**
  * Create a byte stream based on commands for ESC/POS or StarPRNT printers
