@@ -1,6 +1,6 @@
 {
     "name": "@komokuaps/thermalprinterencoder",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
     },
@@ -35,7 +35,7 @@
         "uglify-es": "^3.3.9"
     },
     "dependencies": {
-        "@komokuaps/escposencoder": "^2.0.1",
+        "@komokuaps/escposencoder": "^2.0.2",
         "@komokuaps/starprntencoder": "^1.0.2"
     }
 }
